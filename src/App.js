@@ -21,6 +21,11 @@ function App() {
       {currentPage === "About Me" ? <AboutMe />
         : currentPage === "Projects" ? <Projects />
           : <Contact />}
+
+      <footer>
+        <h2>Links:</h2>
+      </footer>
+
     </div>
   );
 }
