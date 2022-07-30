@@ -8,7 +8,8 @@ function Resume() {
             <Header title="Resume" />
             <section>
                 <ul>
-                    <a href="https://onedrive.live.com/edit.aspx?resid=A89F5613CE6EB00A!230&ithint=file%2cdocx&wdOrigin=OFFICECOM-WEB.MAIN.MRU">Download my Resume</a>
+                    <a href="docs/ALEJANDRO_C_RESUME.docx">Download my Resume</a>
+                    <a target='_blank' href="docs/ALEJANDRO_C_RESUME.pdf">View my Resume</a>
                     <li><h1>Front-end Proficiencies</h1></li>
                     <li>HTML & CSS</li>
                     <li>Javascript</li>

@@ -9,12 +9,12 @@ function Contact() {
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        if (!errorMessage) {
-            console.log('Submit Form', formState);
-        }
-    };
+    // //const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     if (!errorMessage) {
+    //         console.log('Submit Form', formState);
+    //     }
+    // };
 
     const handleChange = (e) => {
         if (e.target.name === 'email') {
@@ -43,7 +43,7 @@ function Contact() {
             <section>
                 <div>
                     <h3>Contact Me 📠 📧 💻:</h3>
-                    <form id="contact-form" onSubmit={handleSubmit}>
+                    <form id="contact-form" action="https://formsubmit.co/el.winy.36@gmail.com" method="post">
                         <div>
                             <label for="name">Name:</label>
                             <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
