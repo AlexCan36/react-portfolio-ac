@@ -65,7 +65,7 @@ li {
 }
 
 .hero {
-  background-image: url("../public/pics/hero\ me.jpeg");
+  background-image: url("./assets/pics/hero\ me.jpeg");
   background-size: contain;
   background-position: center;
   display: flex; 

@@ -1,5 +1,8 @@
 //import logo from './logo.svg';
 import './App.css';
+import githubLogo from  './assets/pics/github_logo.png';
+import linkedinLogo from './assets/pics/linkedin_image.png';
+import facebookLogo from './assets/pics/facebook_logo.png';
 //import Header from './Components/Header';
 import { useState } from 'react';
 import AboutMe from './Components/Pages/AboutMe';
@@ -29,15 +32,15 @@ function App() {
         <div class='row'>
         <div class="column">
             <h5>Github</h5>
-            <a target='_blank' href="https://github.com/AlexCan36"><img border="1" alt="Github" src="/pics/github logo.png" width="100" height="100"></img></a>
+            <a target='_blank' href="https://github.com/AlexCan36"><img border="1" alt="Github" src={githubLogo} width="100" height="100"></img></a>
           </div>
           <div class="column">
           <h5>Linkedin</h5>
-            <a target='_blank' href="https://www.linkedin.com/in/alex-canez-050823230/"><img border="1" alt="Linkedin" src="pics/linkedin image.png" width="100" height="100"></img></a>
+            <a target='_blank' href="https://www.linkedin.com/in/alex-canez-050823230/"><img border="1" alt="Linkedin" src={linkedinLogo} width="100" height="100"></img></a>
           </div>
           <div class="column">
           <h5>Facebook</h5>
-            <a target='_blank' href="https://www.facebook.com/elwinny.canez/"><img border="1" alt="Facebook" src="pics/Screenshot (69).png" width="100" height="100"></img></a>
+            <a target='_blank' href="https://www.facebook.com/elwinny.canez/"><img border="1" alt="Facebook" src={facebookLogo} width="100" height="100"></img></a>
           </div>
         </div>
       </footer>
