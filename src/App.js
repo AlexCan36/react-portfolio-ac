@@ -13,6 +13,7 @@ function App() {
     <div>
       <nav>
         <ul style={{ display: 'flex', listStyle: 'none' }}>
+          <li>Alex Canez</li>
           <li onClick={() => setcurrentPage("About Me")}>About Me</li>
           <li onClick={() => setcurrentPage("Projects")}>Projects</li>
           <li onClick={() => setcurrentPage("Contact")}>Contact</li>
@@ -21,11 +22,24 @@ function App() {
       </nav>
       {currentPage === "About Me" ? <AboutMe />
         : currentPage === "Projects" ? <Projects />
-        : currentPage === "Resume" ? <Resume />
-          : <Contact />}
+          : currentPage === "Resume" ? <Resume />
+            : <Contact />}
 
       <footer>
-        <h2>footer:</h2>
+        <div class='row'>
+        <div class="column">
+            <h5>Github</h5>
+            <a href="https://github.com/AlexCan36"><img border="1" alt="Github" src="public/pics/github logo.png" width="100" height="100"></img></a>
+          </div>
+          <div class="column">
+          <h5>Linkedin</h5>
+            <a href="https://www.linkedin.com/in/alex-canez-050823230/"><img border="1" alt="Linkedin" src="public/pics/linkedin image.png" width="100" height="100"></img></a>
+          </div>
+          <div class="column">
+          <h5>Facebook</h5>
+            <a href="https://www.facebook.com/elwinny.canez/"><img border="1" alt="Facebook" src="public/pics/Screenshot (69).png" width="100" height="100"></img></a>
+          </div>
+        </div>
       </footer>
 
     </div>
