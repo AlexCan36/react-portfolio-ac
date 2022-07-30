@@ -1,3 +1,4 @@
+import React from 'react';
 import Header from "../Header";
 import tattooImage from '../../assets/pics/tattooApp.png';
 import petsAGram from '../../assets/pics/petsAGram.png';
