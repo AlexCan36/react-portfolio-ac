@@ -4,7 +4,7 @@ import tattooImage from '../../assets/pics/tattooApp.png';
 import petsAGram from '../../assets/pics/petsAGram.png';
 import budgetTracker from '../../assets/pics/budgetTracker.png';
 import noteTaker from '../../assets/pics/noteTaker.png';
-import weatherDashboard from '../../assets/pics/weatherDashboard.png';
+import barnyard from '../../assets/pics/barnyard.png';
 import passwordGenerator from '../../assets/pics/passwordGenerator.png';
 
 function Projects() {
@@ -43,10 +43,10 @@ function Projects() {
                     </section>
                 </div>
                 <div class="column">
-                    <h3>Weather Dashboard API</h3>
-                    <a href="https://alexcan36.github.io/Weather-Dashboard/"> <img border="1" alt="WeatherDashboard" src={weatherDashboard} width="200" height="200"></img></a>
+                    <h3>Barnyard</h3>
+                    <a href="https://barnyardproject.herokuapp.com/"><img border="1" alt="barnyard" src={barnyard} width="200" height="200"></img></a>
                     <section>
-                        <p>Github<a target='_blank' href='https://github.com/AlexCan36/Weather-Dashboard.git'>https://github.com/AlexCan36/Weather-Dashboard.git</a></p>
+                        <p>Github<a target='_blank' href='https://github.com/MirMello/barnyard.git'>https://github.com/MirMello/barnyard.git</a></p>
                     </section>
                 </div>
                 <div class="column">
