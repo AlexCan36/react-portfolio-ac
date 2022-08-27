@@ -4,7 +4,7 @@ import tattooImage from '../../assets/pics/tattooApp.png';
 import petsAGram from '../../assets/pics/petsAGram.png';
 import budgetTracker from '../../assets/pics/budgetTracker.png';
 import noteTaker from '../../assets/pics/noteTaker.png';
-import barnyard from '../../assets/pics/barnyard.png';
+import barnyardPage from '../../assets/pics/barnyardPage.png';
 import passwordGenerator from '../../assets/pics/passwordGenerator.png';
 
 function Projects() {
@@ -44,7 +44,7 @@ function Projects() {
                 </div>
                 <div class="column">
                     <h3>Barnyard</h3>
-                    <a href="https://barnyardproject.herokuapp.com/"><img border="1" alt="barnyard" src={barnyard} width="200" height="200"></img></a>
+                    <a href="https://barnyardproject.herokuapp.com/"><img border="1" alt="barnyard" src={barnyardPage} width="200" height="200"></img></a>
                     <section>
                         <p>Github<a target='_blank' href='https://github.com/MirMello/barnyard.git'>https://github.com/MirMello/barnyard.git</a></p>
                     </section>
