@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-ac/static/css/main.a1264d27.css",
-    "main.js": "/react-portfolio-ac/static/js/main.00cd22ad.js",
+    "main.css": "/react-portfolio-ac/static/css/main.dc413528.css",
+    "main.js": "/react-portfolio-ac/static/js/main.f7a7e846.js",
     "static/js/787.392051ef.chunk.js": "/react-portfolio-ac/static/js/787.392051ef.chunk.js",
     "static/media/tattooApp.png": "/react-portfolio-ac/static/media/tattooApp.e3f6d0c59badd0597253.png",
     "static/media/petsAGram.png": "/react-portfolio-ac/static/media/petsAGram.4e349ac821c5fcb5f2ac.png",
@@ -14,12 +14,12 @@
     "static/media/linkedin_image.png": "/react-portfolio-ac/static/media/linkedin_image.ace1b446b98f724df520.png",
     "static/media/github_logo.png": "/react-portfolio-ac/static/media/github_logo.51bde2b007b3d33945fd.png",
     "index.html": "/react-portfolio-ac/index.html",
-    "main.a1264d27.css.map": "/react-portfolio-ac/static/css/main.a1264d27.css.map",
-    "main.00cd22ad.js.map": "/react-portfolio-ac/static/js/main.00cd22ad.js.map",
+    "main.dc413528.css.map": "/react-portfolio-ac/static/css/main.dc413528.css.map",
+    "main.f7a7e846.js.map": "/react-portfolio-ac/static/js/main.f7a7e846.js.map",
     "787.392051ef.chunk.js.map": "/react-portfolio-ac/static/js/787.392051ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1264d27.css",
-    "static/js/main.00cd22ad.js"
+    "static/css/main.dc413528.css",
+    "static/js/main.f7a7e846.js"
   ]
 }
