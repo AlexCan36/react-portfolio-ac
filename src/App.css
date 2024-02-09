@@ -62,6 +62,10 @@ li {
   font-size: 18px;
   line-height: 1.5;
   font-weight: dark;
+  border: 2px solid #ccc; /* Border color */
+  border-radius: 10px; /* Border radius for rounded corners */
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-white background with less transparency */
+  padding: 20px; /* Add padding for spacing inside the box */
 }
 
 .hero {

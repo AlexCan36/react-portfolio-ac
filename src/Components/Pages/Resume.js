@@ -10,9 +10,11 @@ function Resume() {
                 <ul>
                     <a href="docs/ALEJANDRO_C_RESUME.docx">Download my Resume</a>
                     <a target='_blank' href="docs/ALEJANDRO_C_RESUME.pdf">View my Resume</a>
+                    <li><h1>Languages</h1></li>
+                    <li>Javascript *Certified from The U*</li>
+                    <li>Python *Certified from Coursera*</li>
                     <li><h1>Front-end Proficiencies</h1></li>
                     <li>HTML & CSS</li>
-                    <li>Javascript</li>
                     <li>JQuery</li>
                     <li>Responsive design</li>
                     <li>React</li>

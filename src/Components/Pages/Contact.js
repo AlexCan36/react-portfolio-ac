@@ -38,37 +38,35 @@ function Contact() {
     };
 
     return (
-        <div>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+          <div style={{ width: '50%', minWidth: '300px', textAlign: 'left' }}>
             <Header title="Contact" subtitle="Always looking for new opportunities !" />
-            <section>
-                <div>
-                    <h3>Contact Me 📠 📧 💻:</h3>
-                    <form id="contact-form" action="https://formsubmit.co/el.winy.36@gmail.com" method="post">
-                        <div>
-                            <label for="name">Name:</label>
-                            <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-                        </div>
-                        <div>
-                            <label for="email">Email address:</label>
-                            <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-                        </div>
-                        <div>
-                            <label for="message">Message:</label>
-                            <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-                        </div>
-                        {errorMessage && (
-                            <div>
-                                <p className="error-text">{errorMessage}</p>
-                            </div>
-                        )}
-                        <button type="submit">
-                            Submit
-                        </button>
-                    </form>
+            <h3>Contact Me 📠 📧 💻:</h3>
+            <form id="contact-form" action="https://formsubmit.co/el.winy.36@gmail.com" method="post">
+              <div style={{ marginBottom: '10px' }}>
+                <label htmlFor="name">Name:</label>
+                <input type="text" name="name" defaultValue={name} onBlur={handleChange} style={{ width: '100%', padding: '5px' }} />
+              </div>
+              <div style={{ marginBottom: '10px' }}>
+                <label htmlFor="email">Email address:</label>
+                <input type="email" name="email" defaultValue={email} onBlur={handleChange} style={{ width: '100%', padding: '5px' }} />
+              </div>
+              <div style={{ marginBottom: '10px' }}>
+                <label htmlFor="message">Message:</label>
+                <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} style={{ width: '100%', padding: '5px' }} />
+              </div>
+              {errorMessage && (
+                <div style={{ marginBottom: '10px' }}>
+                  <p className="error-text">{errorMessage}</p>
                 </div>
-            </section>
+              )}
+              <button type="submit" style={{ padding: '10px 20px', backgroundColor: '#007bff', color: '#fff', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
-    )
-}
+      );
+              }      
 
 export default Contact;
