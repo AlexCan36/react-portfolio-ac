@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-ac/static/css/main.dc413528.css",
-    "main.js": "/react-portfolio-ac/static/js/main.e8f6fffa.js",
+    "main.js": "/react-portfolio-ac/static/js/main.ad01be21.js",
     "static/js/787.392051ef.chunk.js": "/react-portfolio-ac/static/js/787.392051ef.chunk.js",
     "static/media/tattooApp.png": "/react-portfolio-ac/static/media/tattooApp.e3f6d0c59badd0597253.png",
     "static/media/petsAGram.png": "/react-portfolio-ac/static/media/petsAGram.4e349ac821c5fcb5f2ac.png",
@@ -11,15 +11,16 @@
     "static/media/passwordGenerator.png": "/react-portfolio-ac/static/media/passwordGenerator.abc6e53462117f016719.png",
     "static/media/barnyardPage.png": "/react-portfolio-ac/static/media/barnyardPage.4b4e6a8646ebd2c89613.png",
     "static/media/noteTaker.png": "/react-portfolio-ac/static/media/noteTaker.5ac1977a85328217ea19.png",
+    "static/media/neonsignima.jpeg": "/react-portfolio-ac/static/media/neonsignima.eab137058daaab7c4f54.jpeg",
     "static/media/linkedin_image.png": "/react-portfolio-ac/static/media/linkedin_image.ace1b446b98f724df520.png",
     "static/media/github_logo.png": "/react-portfolio-ac/static/media/github_logo.51bde2b007b3d33945fd.png",
     "index.html": "/react-portfolio-ac/index.html",
     "main.dc413528.css.map": "/react-portfolio-ac/static/css/main.dc413528.css.map",
-    "main.e8f6fffa.js.map": "/react-portfolio-ac/static/js/main.e8f6fffa.js.map",
+    "main.ad01be21.js.map": "/react-portfolio-ac/static/js/main.ad01be21.js.map",
     "787.392051ef.chunk.js.map": "/react-portfolio-ac/static/js/787.392051ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc413528.css",
-    "static/js/main.e8f6fffa.js"
+    "static/js/main.ad01be21.js"
   ]
 }
