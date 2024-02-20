@@ -6,6 +6,10 @@ import budgetTracker from '../../assets/pics/budgetTracker.png';
 import noteTaker from '../../assets/pics/noteTaker.png';
 import barnyardPage from '../../assets/pics/barnyardPage.png';
 import passwordGenerator from '../../assets/pics/passwordGenerator.png';
+//import fFight from '../../assets/pics/fighterfightima.jpeg';
+import neonSign from '../../assets/pics/neonsignima.jpeg';
+//import adriSweet from '../../assets/pics/adrisweetima.jpeg';
+
 
 function Projects() {
     return (
@@ -20,10 +24,10 @@ function Projects() {
                     </section>
                 </div>
                 <div class="column">
-                    <h3>Petsagram</h3>
-                    <a href="https://petsagram-project2.herokuapp.com/"> <img border="1" alt="petsagram" src={petsAGram} width="200" height="200"></img></a>
+                    <h3>Neon House Signs</h3>
+                    <a href="https://alexcan36.github.io/neonhouse-signs/"> <img border="1" alt="neonHouse" src={neonSign} width="200" height="200"></img></a>
                     <section>
-                        <p>Github<a target='_blank' href='https://github.com/leeshekchun/Petsagram.git'>https://github.com/leeshekchun/Petsagram.git</a></p>
+                        <p>Github<a target='_blank' href='https://github.com/AlexCan36/neonhouse-signs'>https://github.com/AlexCan36/neonhouse-signs</a></p>
                     </section>
                 </div>
                 <div class="column">
