@@ -1,6 +1,7 @@
 import Header from "../Header";
 import React from 'react';
-//import coverImage from '';
+import uOfutah from '../../assets/pics/udiplomaima.png';
+import coursera from '../../assets/pics/courseraima.png';
 
 function Resume() {
     return (
@@ -12,7 +13,9 @@ function Resume() {
                     <a target='_blank' href="docs/ALEJANDRO_C_RESUME.pdf">View my Resume</a>
                     <li><h1>Languages</h1></li>
                     <li>Javascript *Certified from The U*</li>
+                    <a><img border="1" alt="utahimage" src={uOfutah} width="100" height="100"></img></a>
                     <li>Python *Certified from Coursera*</li>
+                    <a><img border="1" alt="coursera" src={coursera} width="75" height="75"></img></a>
                     <li><h1>Front-end Proficiencies</h1></li>
                     <li>HTML & CSS</li>
                     <li>JQuery</li>
